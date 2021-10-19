@@ -16,8 +16,10 @@ body {
     height: 100%;
   }
   .block-one {
-    padding-left: 60px;
-    padding-top: 18px;
+
+    /* Андрей , может всё в ем перевести? пробовал в % конвертеры неверно показывают */
+    padding-left: 3.75em;      
+    padding-top: 1.125em;
   }
   .sinhro {
     width: 112px;
@@ -301,6 +303,7 @@ body {
     flex-wrap: wrap;
     padding-top: 41px;
     padding-left: 95px;
+    width: 1440px;
     /* padding: 30px 95px 24px 90px; */
   }
   .painters div img {
@@ -361,6 +364,7 @@ body {
     padding-bottom: 30px;
     padding-right: 100px;
     margin-right: -100px;
+    width: 1440px;
   }
   .persons {
     font-family: Roboto Slab;
@@ -417,7 +421,7 @@ body {
   .money {
     background: #9DC9C8;
     padding-left: 35px;
-    padding-top: 40px;
+    padding-top: 40px;   
     padding-right: 32px;
     padding-bottom: 140px;
     width: 1440px;
@@ -432,7 +436,7 @@ body {
     margin-bottom: 0;
     width: 908px;
     height: 66px;
-    margin-left: 85px;
+    margin-left: 40px;
     margin-right: 0px;
     padding-top: 20px;
   }
@@ -445,7 +449,7 @@ body {
     color: #000000;
     margin-top: 22px;
     margin-bottom: 0;
-    margin-left: 85px;
+    margin-left: 40px;
     padding-top: 50px;
   }
   .count {
@@ -541,6 +545,8 @@ body {
     height: 85px;
     margin-bottom: 50px;
   }
+
+
   .logotip {
     font-family: Roboto;
     font-style: normal;
@@ -763,7 +769,7 @@ margin-right: 50px;
     color: #000000;
     margin-top: 0;
   }
-}
+
 
 
 .forma {
@@ -1113,6 +1119,7 @@ margin-right: 400px;
 
 }
 
+}
 
 /* mobile_version */
 
@@ -1492,7 +1499,7 @@ margin-right: 400px;
     padding-top: 40px;
     padding-right: 32px;
     padding-bottom: 72px;
-    width: 673px;
+    width: 422px;
   }
   .month {
     font-family: Roboto Slab;
@@ -1526,9 +1533,10 @@ margin-right: 400px;
   }
   .info-money {
     display: flex;
+  
   }
   .iii {
-    margin-left: 31px;
+    margin-right: 31px;
   }
   .big-text {
     font-family: Roboto;
